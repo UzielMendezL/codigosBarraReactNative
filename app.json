@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "cb_beta",
+    "slug": "cb_beta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "splash": {
+      "image": "./assets/img/logobetablanco.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#01579b"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#01579b",
+      "translucent": false,
+      "barStyle": "light-content"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#01579b",
+      "barStyle": "light-content"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.mobile.cb_beta"
+    }
+  }
+}

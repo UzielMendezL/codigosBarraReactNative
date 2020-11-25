@@ -1,0 +1,46 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "cb": "expo build:android --release-channel prod-v0.0.2"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "~1.12.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/netinfo": "^5.9.6",
+    "@react-navigation/drawer": "^5.11.2",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.2",
+    "add": "^2.0.6",
+    "date-fns": "^2.16.1",
+    "expo": "^39.0.3",
+    "expo-av": "^8.6.0",
+    "expo-file-system": "^9.2.0",
+    "expo-linear-gradient": "^8.3.1",
+    "expo-status-bar": "~1.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
+    "react-native-base64": "^0.1.0",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-elements": "^2.3.2",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-image-zoom-viewer": "^3.0.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-modal": "^11.5.6",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.4",
+    "react-native-screens": "^2.10.1",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "~0.13.12",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
